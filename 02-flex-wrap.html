@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box box-1">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+  </div>
+
+  <div class="box box-2">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+  </div>
+
+  <div class="box box-3">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+  </div>
+
+  <style>
+    .box {
+      display: flex;
+      border: 2px solid #58B7FF;
+      margin-bottom: 10px;
+    }
+    .box-1 {
+      flex-wrap: nowrap;
+    }
+    .box-2 {
+      flex-wrap: wrap;
+      width: 200px;
+    }
+    .box-3 {
+      flex-wrap: wrap-reverse;
+      width: 200px;
+    }
+    .item {
+      height: 30px;
+      width: 30px;
+      margin:  5px 10px;
+    }
+    .item-1 {
+      background-color: #13CE66;
+    }
+    .item-2 {
+      background-color: #F7BA2A;
+    }
+    .item-3 {
+      background-color: #FF4949;
+    }
+  </style>
+</body>
+</html>
